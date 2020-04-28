@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+}
+
+.nav {
+  height: 80px;
+  background-color: #990000;
+  width1: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+body{
+  background-color: #F1BE48
+}
+
+button {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  min-width: 100px;
+  background-color: black;
+  color: white;
+
+  border-radius: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  outline: 0;
+}
+
+button: active {
+  background-color: #BEBEBE;
+  outline: 0;
+}
